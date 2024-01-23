@@ -92,7 +92,7 @@ body {
     background: rgb(232, 232, 232);
     background-image: url(images/himalaya.png);
     background-repeat: no-repeat;
-    background-size: 100% 560px;
+    background-size: 100% 550px;
     font-family: Mukta,Lato,sans-serif;
     position: relative;
     margin: 0;
@@ -561,6 +561,7 @@ body {
     gap: 10px;
     color: rgb(98 96 96);
     font-size: 16px;
+    cursor: pointer;
 }
 .International{
     margin-left: auto;
@@ -569,20 +570,8 @@ body {
     background-color: #b8d9f5;
     border-radius: 10px;
     font-weight: 900;
-}
-.directionselection {
-    display: flex;
-    align-items: center;
-    text-transform: capitalize;
-    cursor: pointer;
-    margin: 0 10px;
-    padding: 2px 6px;
-    border-radius: 20px;
-    background: #eaf5ff;
     color: #000000;
-    font-weight: 900;
 }
-
 .from{
     padding: 11px 24px;
 }
@@ -857,10 +846,11 @@ body {
     align-items: center;
     margin-bottom: 12px;
     font-size: 12px;
+    gap: 5px;
 }
 .doublearrow{
-    width: 12px;
-    height: 13px;
+    width: 11px;
+    height: 12px;
 }
 .gifts{
     box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.1);
@@ -1161,16 +1151,47 @@ body {
 }
 .unlock_header{
     padding-right: 40px;
+    overflow: hidden;
 }
 .unlock_para{
     color: #000000;
     font-weight: 900;
     font-size: 30px;
 }
+.unlock_buttons{
+    display: flex;
+}
+.control_buttons{
+    margin-left: auto;
+    margin-top: 34px;
+}
 .unlock_photo{
     width: 208px;
     height: 249px;
     border-radius: 9px;
+}
+.unlock_picker{
+    display: flex;
+    gap: 20px;
+}
+.arrow_button1{
+    border: 1px solid #d8d8d8;
+    background: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 29px;
+    height: 29px;
+    color: lightskyblue;
+}
+.arrow_button2{
+    border: 1px solid #c6c6c6;
+    background: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 26px 0 rgba(0, 0, 0, 0.1);
+    width: 29px;
+    height: 29px;
+    color: lightskyblue;
 }
 .paragraphs{
     margin: 100px 118px;
@@ -1185,7 +1206,7 @@ body {
 .footer_section{
     background-color: #000000;
     color: white;
-    width: 1460px;
+    width: 1263px;
     height: 200px;
 }
 .answers{
