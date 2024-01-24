@@ -1029,20 +1029,40 @@ body {
     font-size: 14px;
     color: rgb(74 74 74);
 }
+.whole-cards{
+    display: flex;
+}
+.scroll{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.card-button{
+    position: absolute;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 26.4px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+    font-size: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-color: white;
+    left: -22px;
+    color: #008cff;
+}
+
 .stick-scroll{
     display: flex;
-    gap: 15px;
+    gap: 13px;
 }
-.first-card{
-    display: flex;
-    /* border: 1px solid; */
-    background: white;
-    color: rgb(74 74 74);
-    border-radius: 10px;
-    width: 365px;
-    height: 95px;
-    align-items: center;
+.card-scroll{
+    position: relative;
 }
+
 .card1-image{
     height: 59px;
     width: 54px;
@@ -1058,7 +1078,7 @@ body {
     background: white;
     color: rgb(74 74 74);
     border-radius: 10px;
-    width: 323px;
+    width: 389px;
     height: 95px;
     align-items: center;
 }
@@ -1069,8 +1089,9 @@ body {
 }
 .info2{
     margin-left: 10px;
-    margin-right: 6px;
-    font-size: 14px;
+    margin-right: 21px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .footer{
     display: flex;
@@ -1112,10 +1133,10 @@ body {
 .mobile{
     background: white;
     border-radius: 9px;
-    width: 1125px;
+    width: 1195px;
     height: 200px;
     display: flex;
-    margin: 0 40px 20px;
+    margin: 0 0 20px;
 }
 .handpicked{
     box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
@@ -1179,9 +1200,9 @@ body {
     background: white;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 29px;
-    height: 29px;
-    color: lightskyblue;
+    width: 34px;
+    height: 34px;
+    color: #008cff;
 }
 .arrow_button2{
     border: 1px solid #c6c6c6;
@@ -1189,9 +1210,9 @@ body {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 1px 1px 26px 0 rgba(0, 0, 0, 0.1);
-    width: 29px;
-    height: 29px;
-    color: lightskyblue;
+    width: 34px;
+    height: 34px;
+    color: #008cff;
 }
 .paragraphs{
     margin: 100px 118px;
