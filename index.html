@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div class="background">
@@ -596,9 +597,26 @@
         </div>
         <div class="handpicked">
             <div class="handpicked_header">
-                <p class="handpickedpara"><b>Handpicked Collections For You</b></p>
+                <div class="unlock_buttons">
+                    <p class="handpickedpara"><b>Handpicked Collections For You</b></p>
+                    <div class="control_buttons">
+                        <button class="arrow_button1">
+                            <i style='font-size:24px' class='fas'>&#xf104;</i>
+                        </button>
+                        <button class="arrow_button2">
+                            <i style='font-size:24px' class='fas'>&#xf105;</i>
+                        </button>
+                    </div>
+                </div>
                 <div class="selecting_pictures">
                     <img src="images/m_Le ROI Floating Huts_Eco Rooms_Tehri_Uttarakhand_l_550_821.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination_yelagiri_landscape_l_340_544.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination_Araku Valley_landscape_l_400_640.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination-alleppey-landscape_l_400_640.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination-mandarmoni-landscape_l_400_640.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination-saputara-landscape_l_400_640.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination-udupi-landscape_l_400_640.jpg" class="handpicked_photo">
+                    <img src="travels/m_destination-vellore-landscape_l_400_640.jpg" class="handpicked_photo">
                 </div>
             </div>
         </div>
@@ -611,22 +629,22 @@
                     <div class="unlock_buttons">
                         <p class="unlock_para"><b>Unlock Lesser-Known Wonders of India</b></p>
                         <div class="control_buttons">
-                            <button class="arrow_button1">
+                            <button class="arrow_button1" onclick="prev()">
                                 <i style='font-size:24px' class='fas'>&#xf104;</i>
                             </button>
-                            <button class="arrow_button2">
+                            <button class="arrow_button2" onclick="next()">
                                 <i style='font-size:24px' class='fas'>&#xf105;</i>
                             </button>
                         </div>
                     </div>
                     <div class="unlock_picker">
-                        <img src="unlock/m_Bhandardara_l_568_852.jpg" class="unlock_photo">
+                        <img src="unlock/m_Bhandardara_l_568_852.jpg" class="unlock_photo" id="">
                         <img src="travels/m_Shoghi_l_667_1000.jpg" class="unlock_photo">
                         <img src="travels/m_Tadoba_l_587_880.jpg" class="unlock_photo">
                         <img src="travels/m_destination-saputara-landscape_l_400_640.jpg" class="unlock_photo">
                         <img src="travels/m_Dapoli_l_703_937.jpg" class="unlock_photo">
                         <img src="travels/m_Amritsar_activity_heritage_l_684_1026.jpg" class="unlock_photo">
-                        <img src="travels/m_destination-udupi-landscape_l_400_640.jpg" class="unlock_photo">
+                        <img src="travels/m_Australia_destination_6_l_361_641.jpg" class="unlock_photo"> 
                     </div>
                 </div>
             </div>

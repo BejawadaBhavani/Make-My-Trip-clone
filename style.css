@@ -1149,11 +1149,17 @@ body {
 }
 .handpicked_header{
     padding-right: 40px;
+    overflow: hidden;
 }
 .handpickedpara{
     color: black;
     font-weight: 900;
     font-size: 30px;
+    padding-bottom: 17px;
+}
+.selecting_pictures{
+    display: flex;
+    gap: 20px;
 }
 .handpicked_photo{
     width: 182px;
@@ -1187,7 +1193,7 @@ body {
     margin-top: 34px;
 }
 .unlock_photo{
-    width: 208px;
+    width: 212px;
     height: 249px;
     border-radius: 9px;
 }
