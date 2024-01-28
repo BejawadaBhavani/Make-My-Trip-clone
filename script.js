@@ -109,7 +109,11 @@ const images=['unlock/m_Bhandardara_l_568_852.jpg',
     'travels/m_destination-saputara-landscape_l_400_640.jpg',
     'travels/m_Dapoli_l_703_937.jpg',
     'travels/m_Amritsar_activity_heritage_l_684_1026.jpg',
-    'travels/m_destination-udupi-landscape_l_400_640.jpg'];
+    'travels/m_destination-udupi-landscape_l_400_640.jpg',
+    'travels/m_Destination_Dhanaulti_l_534_801.jpg',
+    'travels/m_destination-mandarmoni-landscape_l_400_640.jpg',
+    'travels/m_Destination_Panchmarhi_l_464_696.jpg',
+];
     const sliderImage=document.getElementsByClassName(".unlock_photo");
     let currentindex=0;
     function prev(){
