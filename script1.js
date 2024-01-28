@@ -1,4 +1,3 @@
-
 const slides = document.querySelectorAll(".unlock_photo");
         var count = 0;
     
@@ -16,7 +15,7 @@ const slides = document.querySelectorAll(".unlock_photo");
         };
     
         const goNext = () => {
-            if (count < slides.length - 1) {
+            if (count < slides.length - 5) {
                 count++;
                 slideImage();
             }
@@ -25,5 +24,4 @@ const slides = document.querySelectorAll(".unlock_photo");
         const slideImage = () => {
             slides.forEach(
                 slide => (slide.style.transform = `translateX(-${count * 100}%)`)
-            );
-        };
+            )};
