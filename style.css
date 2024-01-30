@@ -1184,21 +1184,23 @@ body {
     color: #000000;
     font-weight: 900;
     font-size: 30px;
+    margin: 0;
 }
 .unlock_buttons{
     display: flex;
 }
 .control_buttons{
     margin-left: auto;
-    margin-top: 34px;
+    /* margin-top: 34px; */
+    padding-bottom: 28px;
 }
 .unlock_photo{
-    width: 212px;
+    width: 205px;
     height: 249px;
     border-radius: 9px;
     transition: 1s;
 }
-.unlock_picker{
+#unlock_picker{
     display: flex;
     gap: 20px;
 }
@@ -1249,3 +1251,19 @@ body {
     margin-left: auto;
     padding: 0;
 }
+
+
+.image-container {
+    display: flex;
+  overflow: hidden;
+  gap: 20px;
+}
+
+  .unlock_photo {
+    width: 205px;
+    height: 249px;
+  }
+
+  button {
+    margin-top: 10px;
+  }
