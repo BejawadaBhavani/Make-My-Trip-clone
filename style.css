@@ -136,6 +136,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin: 0;
 }
 .bold {
     font-size: 9px;
@@ -223,13 +224,16 @@ body {
 }
 .selecting{
     color: white;
-    margin: -42px 0px 0px 5px;
+    margin: -29px 0px 4px 19px;
     font-size: 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 .flag2{
     position: absolute;
     top: -30px;
-    left: 19px;
+    left: 13px;
 }
 .widgetLoader {
     width: 1200px;
@@ -242,6 +246,12 @@ body {
     right: 0;
     margin-bottom: 40px;
 }
+.countryandlanguage{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
 .headerOuter {
     display: flex;
     align-items: center;
@@ -253,7 +263,7 @@ body {
 .wrapper{
     z-index: 11;
     position: absolute;
-    top: -26px;
+    top: -55px;
     box-sizing: border-box;
 }
 .data{
@@ -1228,15 +1238,16 @@ body {
 }
 .reasons{
     display: flex;
-    padding: 10px 123px;
-    gap: 78px;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
     background-color: #d8d8d8;
 }
 
 .footer_section{
     background-color: #000000;
     color: white;
-    width: 1263px;
+    width: 100%;
     height: 200px;
     display: flex;
     align-items: center;
@@ -1244,6 +1255,12 @@ body {
 }
 .answers{
     background-color: #d8d8d8;
+    color: rgb(74, 74, 74);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .last {
     display: flex;
@@ -1266,4 +1283,8 @@ body {
 
   button {
     margin-top: 10px;
+  }
+  .p_2{
+    font-size: 10px;
+    margin: 0;
   }
